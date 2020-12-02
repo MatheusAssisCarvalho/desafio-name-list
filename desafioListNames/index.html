@@ -4,30 +4,28 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- Compiled and minified CSS -->
-        <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-        />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./css/styles.css" />
         
         <title>Desafio 1 - List Name</title>
     </head>
     <body>
-        <h1>Digite para filtrar</h1>
+        <h1 id="title">IGTI - Desafio modulo 1 - List Name - Matheus Carvalho</h1>
         <div id="contentInput">
+            <h2>Digite para filtrar</h2>
             <input id="inputName" type="text">
-            <a id="button" class="waves-effect waves-light btn">Enter  </a>
+            <button id="button" class="waves-effect waves-light btn">Enter  </a>
         </div>
 
         <div id="contentList">
             <div id="nameList">
-                <h2><span id="totalPessoas"></span> Usuário(s) encontrado(s)</h2>
+                <h3><span id="totalPessoas"></span> Usuário(s) encontrado(s)</h3>
                 <div id="tabNames">
                 </div>
             </div>
             <div id="nameList">
-                <h2>Estatisticas</h2>
+                <h3>Estatisticas</h3>
                 <div id="statistic-data">
                 </div>
             </div>

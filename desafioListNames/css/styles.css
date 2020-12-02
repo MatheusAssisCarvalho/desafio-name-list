@@ -1,11 +1,13 @@
 * {
-  margin: 20;
-  padding: 20;
-  font-family: sans-serif;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
 }
 
 body {
-  padding: 20px;
+  padding: 10px;
+  background-color: #add8e6;
+  height: 100%;
 }
 
 img {
@@ -16,37 +18,66 @@ img {
   border-radius: 50%;
 }
 
-h1,
+button {
+  width: 70px;
+  background-color: #483d8b;
+  border-radius: 7px;
+  border: 1px solid #483d8b;
+  color: #fff;
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+}
+
+h2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: 400;
+  font-size: 25px;
+  border-radius: 10px;
+  background-color: #191970;
+  color: #fff;
+}
+
 #inputName {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  border: solid 2px;
-  border-radius: 10px;
+  align-items: center;
   font-weight: 400;
-  font-size: 30px;
-  background-color: rgba(232, 255, 249, 0.726);
+  font-size: 25px;
+  border-radius: 10px;
+  border: 2px solid #483d8b;
+  background-color: #483d8b;
+  color: #fff;
 }
 
-h2,
+h3,
 span {
+  text-align: center;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 20px;
+  color: #fff;
 }
 
 #contentList,
 #contentInput {
-  border: solid 2px;
-  border-radius: 10px;
-  padding: 5px;
+  border-radius: 15px;
+  border: 2px solid #483d8b;
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  padding: 20px;
+  padding: 10px;
+  margin: 30px;
+  background-color: #191970;
 }
 
 #nameList {
+  width: 100%;
   padding: 20px;
+  background-color: #191970;
 }
 
 #inputName,
@@ -56,14 +87,21 @@ span {
 
 #name {
   display: flex;
-  flex-direction: row;
+}
+
+ul,
+li,
+div {
+  list-style-type: none;
+  background-color: #483d8b;
+  color: #fff;
 }
 
 #tabNames,
 #statistic-data {
-  padding: 5px;
-  border: 1px solid grey;
-  border-radius: 10px;
-  margin-right: 10px;
-  background-color: rgba(232, 255, 249, 0.726);
+  padding: 10px;
+  border-radius: 15px;
+  border: 2px solid #483d8b;
+  min-height: 80px;
+  color: #fff;
 }
